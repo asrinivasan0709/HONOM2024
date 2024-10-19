@@ -4,7 +4,7 @@ clc; clear; close all;
 % Ref: Li et al, J. Comp Physics 2020
     % NOTE - use this file for convergence calcs
 
-addpath('C:\Anand\Acer_Data\SDSU\MOLE\mole-master\mole_MATLAB')
+addpath('...\mole-master\mole_MATLAB')
 
 mVec = [1,2,4,8]';
 for i = 1:size(mVec,1)
