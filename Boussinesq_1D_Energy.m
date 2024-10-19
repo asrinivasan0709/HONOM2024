@@ -3,7 +3,7 @@ clc; clear; close all;
 % ASrinivasan, 4Apr2024
 % Ref: Li et al, J. Comp Physics 2020
 
-addpath('C:\Anand\Acer_Data\SDSU\MOLE\mole-master\mole_MATLAB')
+addpath('...\mole-master\mole_MATLAB')
 Mult = 4; 
 m = Mult*64; xmin = -50; xmax = 50; 
 dx = (xmax-xmin)/m; tEnd = 20; cV = 1; 
