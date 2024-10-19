@@ -2,7 +2,7 @@ clc; clear; close all;
 % Symplectic Scheme, 2D Boussinesq eqn, Composition method
 % ASrinivasan, 13Oct2024, uses Laplacian operator
 
-addpath('C:\Anand\Acer_Data\SDSU\MOLE\mole-master\mole_MATLAB')
+addpath('...\mole-master\mole_MATLAB')
 Mult = 2; kX = 60;
 m = Mult*64; xmin = -kX; xmax = kX; 
 n = Mult*64; ymin = -kX; ymax = kX; 
