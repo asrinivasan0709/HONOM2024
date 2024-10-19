@@ -2,7 +2,7 @@ clc; clear; close all;
 % Symplectic Scheme, 2D Wave eqn, Composition method
 % ASrinivasan, 5Apr2024, for convergence
 
-addpath('C:\Anand\Acer_Data\SDSU\MOLE\mole-master\mole_MATLAB')
+addpath('...\mole_MATLAB')
 
 mVec = [2, 4, 8, 16]';  
 
