@@ -3,7 +3,7 @@ clc; clear; close all;
 % ASrinivasan, 1Apr2024
 % Uses fourth and sixth order mimetic operators
 
-addpath('C:\Anand\Acer_Data\SDSU\MOLE\mole-master\mole_MATLAB')
+addpath('...\mole_MATLAB')
 Mult = 2; 
 m = Mult*100; % xmin = -40; xmax = 40; 
 xmin = -15; xmax = 15; 
