@@ -2,7 +2,7 @@ clc; clear; close all;
 % Symplectic Scheme, 1D Shallow Water eqn, Composition method
 % ASrinivasan, 27Apr2024, 1st order systems
 
-addpath('C:\Anand\Acer_Data\SDSU\MOLE\mole-master\mole_MATLAB')
+addpath('...\mole-master\mole_MATLAB')
 Mult = 4; 
 m = Mult*100; % xmin = -40; xmax = 40; 
 xmin = -40; xmax = 40; 
