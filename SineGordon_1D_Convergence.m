@@ -2,7 +2,7 @@ clc; clear; close all;
 % Symplectic Scheme, 1D Sine Gordon eqn, Composition method
 % ASrinivasan, 1Apr2024, Convergence
 
-addpath('C:\Anand\Acer_Data\SDSU\MOLE\mole-master\mole_MATLAB')
+addpath('...\mole-master\mole_MATLAB')
 
 VecM = [1,2,4,8,16]';
 
