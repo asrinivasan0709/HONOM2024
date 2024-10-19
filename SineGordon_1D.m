@@ -2,7 +2,7 @@ clc; clear; close all;
 % Symplectic Scheme, 1D Sine Gordon eqn, Composition method
 % ASrinivasan, 1Apr2024
 
-addpath('C:\Anand\Acer_Data\SDSU\MOLE\mole-master\mole_MATLAB')
+addpath('...\mole-master\mole_MATLAB')
 Mult = 8; 
 m = Mult*50; xmin = -50; xmax = 50; 
 dx = (xmax-xmin)/m; tEnd = 15; cV = 1; 
